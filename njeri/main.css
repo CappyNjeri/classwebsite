@@ -1,0 +1,273 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.art {
+    display: flex;
+}
+
+.art2 {
+    display: flex;
+}
+
+.article {
+    border: 0px solid black;
+    width: 47%;
+    height: 120px;
+    margin-top: 2%;
+    margin-left: 2%;
+    background-color: #b3ffff;
+    position: relative;
+    border-radius: 4%;
+}
+
+
+/*******For the image of the bird********/
+
+.art .article img {
+    height: 70px;
+    width: 20%;
+    float: right;
+    border-radius: 5%;
+}
+
+.art .article h4 {
+    font-size: 20px;
+    padding-left: 2%;
+    color: #4d79ff;
+}
+
+.article p {
+    font-size: -20%;
+    float: bottom;
+    color: #666666;
+}
+
+
+/***********Third and fouth articles***************/
+
+.art2 .article img {
+    height: 70px;
+    width: 20%;
+    float: right;
+    border-radius: 5%;
+}
+
+
+/*******SIDE BAR********/
+
+.side {
+    display: flex;
+}
+
+.sidebar {
+    border: 0px solid red;
+    width: 40%;
+    height: 270px;
+    margin-top: 3%;
+    margin-left: 4%;
+    border-radius: 5%;
+}
+
+.side .sidebar img {
+    width: 90%;
+    height: 200px;
+}
+
+.side .sidebar p {
+    color: #0fe619;
+    font-size: 20px;
+    font-weight: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+
+.side .sidebar p i {
+    color: #ff33cc;
+}
+
+
+/*********Sidebar2**********/
+
+.sidebar2 {
+    border: 0px solid red;
+    width: 40%;
+    height: 270px;
+    margin-top: 3%;
+    margin-left: 4%;
+    border-radius: 5%;
+}
+
+.side .sidebar2 img {
+    width: 100%;
+    height: 150px;
+    border-radius: 5%;
+}
+
+.side .sidebar2 p {
+    padding-top: 10%;
+    padding-left: 15%;
+    color: #00ffff;
+}
+
+
+/*******************About page**********************/
+
+.abt {
+    border: 0px solid black;
+    width: 40%;
+    height: 50px;
+    margin-top: 5%;
+    margin-left: 30%;
+}
+
+.abt_img img {
+    width: 50%;
+    height: 300px;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+
+.abt_img {
+    display: flex;
+}
+
+.abt_img p {
+    padding-top: 10%;
+    padding-left: 2%;
+    color: #bf80ff;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/*******************Information page**********************/
+
+.service {
+    font-size: xx-large;
+    color: #888844;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.pics {
+    display: flex;
+}
+
+.portion {
+    border: 0px solid black;
+    width: 40%;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 3%;
+    display: flex;
+    border-radius: 5%;
+}
+
+.portion img {
+    height: 200px;
+    width: 40%;
+    border-radius: 5%;
+}
+
+.pics2 {
+    display: flex;
+}
+
+.portion2 {
+    border: 0px solid black;
+    width: 40%;
+    height: 200px;
+    margin-left: 5%;
+    margin-top: 3%;
+    display: flex;
+    border-radius: 5%;
+}
+
+.portion2 img {
+    height: 200px;
+    width: 40%;
+    border-radius: 5%;
+}
+
+
+/*******************Contact page**********************/
+
+.cont {
+    font-size: xx-large;
+    color: #666600;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    margin-left: 5%;
+    padding-top: 3%;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+
+/********************Calender**************************/
+
+.calender {
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.month h4 {
+    color: #0099e6;
+    font-size: 25px;
+}
+
+.table th {
+    color: #ff4dff;
+}
+
+.table td {
+    text-align: center;
+    cursor: pointer;
+}
+
+.table td:hover {
+    color: #ff33ff;
+}
+
+
+/*******scrollable******/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+}
+
+.first {
+    height: 100vh;
+    background-color: aquamarine;
+}
+
+.second {
+    height: 100vh;
+    background-color: rgb(60, 209, 85);
+}
+
+.third {
+    height: 100vh;
+    background-color: brown;
+}
+
+.web {
+    height: 100vh;
+    background-color: blue;
+}
+
+.fifth {
+    height: 100vh;
+    background-color: rgb(209, 139, 34);
+}
